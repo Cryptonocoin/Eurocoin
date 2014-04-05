@@ -949,7 +949,6 @@ unsigned int static GetNextWorkRequired_DigiShield(const CBlockIndex* pindexLast
 {
     unsigned int nProofOfWorkLimit = bnProofOfWorkLimit.GetCompact();
 
-    int nHeight = pindexLast->nHeight + 1;
     int blockstogoback = 0;
 
     //set default to pre-v2.0 values
