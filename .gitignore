@@ -7,7 +7,6 @@ src/build.h
 *.bak
 *.rej
 *.orig
-*.o
 *.patch
 .bitcoin
 #compilation and Qt preprocessor part
